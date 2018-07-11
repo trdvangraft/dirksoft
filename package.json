@@ -1,0 +1,32 @@
+{
+  "name": "dirksoft",
+  "version": "1.0.0",
+  "description": "A project to create crm software ",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/trdvangraft/dirksoft.git"
+  },
+  "keywords": [
+    "CRM"
+  ],
+  "author": "Tijmen van Graft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/trdvangraft/dirksoft/issues"
+  },
+  "homepage": "https://gitlab.com/trdvangraft/dirksoft#README",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
